@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "nomeCliente": "Maria",
+    "emailCliente": "Maria@gmail.com",
+    "pago": true,
+    "valorTotal": 190,
+    "itensPedido": [
+      {
+        "id": 1,
+        "idProduto": 1,
+        "nomeProduto": "Martelos",
+        "valorUnitario": 10,
+        "quantidade": 5
+      },
+      {
+        "id": 2,
+        "idProduto": 2,
+        "nomeProduto": "Serrote",
+        "valorUnitario": 20,
+        "quantidade": 7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nomeCliente": "Jose",
+    "emailCliente": "Josegmail.com",
+    "pago": true,
+    "valorTotal": 52,
+    "itensPedido": [
+      {
+        "id": 3,
+        "idProduto": 2,
+        "nomeProduto": "Serrote",
+        "valorUnitario": 20,
+        "quantidade": 2
+      },
+      {
+        "id": 4,
+        "idProduto": 3,
+        "nomeProduto": "Prego",
+        "valorUnitario": 3,
+        "quantidade": 4
+      }
+    ]
+  }
+]
